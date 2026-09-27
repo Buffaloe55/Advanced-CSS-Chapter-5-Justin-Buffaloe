@@ -1,3 +1,4 @@
+/*Shows Priority for Fonts and changes backgrounds gradient color */
 body {
   font-family: Roboto, Helvetica, sans-serif;
   background: linear-gradient(120deg,#b22222, #c0c0c0, #b22222);
@@ -5,6 +6,7 @@ body {
   animation: gradient-shift 30s ease infinite;
 }
 
+/*Animation for gradient changing colors */
 @keyframes gradient-shift {
   0%, 100% { background-position: 0% 50%;}
   50% { background-position: 100% 50%;}
@@ -43,12 +45,14 @@ h1 {
   background-color: #fafafa;
 }
 
+/*rules for table  */
 table {
   width: 100%;
   background-color: #ffffff;
   border-spacing: 0;
 }
 
+/*Header Cells */
 th {
   font-size: 12px;
   font-weight: bold;
@@ -59,6 +63,7 @@ th {
   border-bottom: 1px solid #f1f1f1;
 }
 
+/*Data Cells */
 td {
   font-weight: lighter;
   color: #444444;
